@@ -2,7 +2,9 @@
 ## Introduction
 This is a frontend project built using HTML, CSS, and JavaScript, which strictly validates the input entered by the user/client, and immediately lets the user know if the entry is invalid.
 
-This is a survey form, open the HTML file in your browser you can use this form. It uses the form validation in Javascript,
+This is a Course survey form, open the HTML file in your browser you can use this form. It uses the form validation in Javascript, to check if the input entered is a number, the pattern we use is /^[0-9]+$/ and match it with the 'string' we want to check. JS code goes like this: string.match(/^[0-9]+$/);
+Also, does not accept input until the requirements are not fulfilled or are not valid.
+
 
 # Detail requirements
 ## High Level Requirements:
